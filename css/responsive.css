@@ -1,0 +1,434 @@
+/* -------- 320 ------- */
+@media only screen and (min-width : 320px){
+    #btnmenu{display: block;}
+    #header{display: none;}
+    .marge{width: 290px;}
+    main{margin: 114px auto 0;}
+    small{font-size: 11px;line-height: 11px;}
+    header{padding: 10px;}
+    a#logoheader {font-size: 17px;line-height: 17px;width: 150px;margin: 12px auto 0;}
+    #btnmenu{width: 40px;height: 40px;}
+    #btnmenu.open{width: 40px;height: 40px;}
+    #menumobile{width: 250px;padding: 0px 30px;height: 130px;top: 114px;}
+    ul#menunav {margin : 30px auto 0;}
+    ul#menunav li{margin: 0 auto 15px;}
+    ul#menunav li a {font-size: 14px;line-height: 14px;}
+    ul#menu{margin: 0 10px 0 0;}
+    ul#menu li{margin : 0 10px;}
+    ul#menu li a{font-size: 13px;line-height: 13px;padding: 0 0 10px;margin: 10px auto 0;}
+    ul#menu li.login a {padding: 6px 10px;margin: 6px auto 0;border-radius: 5px;-webkit-border-radius: 5px;-moz-border-radius: 5px;-ms-border-radius: 5px;-o-border-radius: 5px;}
+    .form_recherche{margin: 9px 0 0 15px;}
+    .formulaire_rechercher{padding: 3px 22px 3px 6px;}
+    .bouton_rechercher{width: 23px;height: 23px;}
+    a.panel-user {font-size: 13px;line-height: 13px;padding: 3px;margin: 10px 10px 0 0;border-radius: 5px;-webkit-border-radius: 5px;-moz-border-radius: 5px;-ms-border-radius: 5px;-o-border-radius: 5px;}
+    section.dropdown-menu {right : 10px;}
+    section.dropdown-menu.extended {max-width: 200px;top: 114px;right: calc(50% - 110px);padding: 8px;}
+    section.dropdown-menu.extended li {font-size: 13px;line-height: 15px;}
+    .panel_header {padding : 5px 0;margin: 0 auto 10px;}
+    .panel_header span {font-size : 13px;line-height : 13px;}
+    section.dropdown-menu .avatar2 {width: 50px;height: 50px;}
+    .panel_lvl {padding : 10px 0;margin: 10px 0;}
+    section.dropdown-menu.extended li a {font-size: 13px;line-height: 16px;}
+    section.dropdown-menu.extended.logout > li:last-child a.deconnexion{padding: 6px;font-size: 13px;line-height: 13px; border-radius: 3px;-webkit-border-radius: 3px;-moz-border-radius: 3px;-ms-border-radius: 3px;-o-border-radius: 3px;}
+    .avatar {padding : 0 10px 0 0;width: 25px;height: 15px;}
+    .user {width: calc(100% - 80px);padding : 5px 0 9px 10px;}
+    .champ{margin: 5px 0;}
+    .inputConnexion{width: calc(100% - 20px);padding: 6px;-webkit-border-radius: 6px;-moz-border-radius: 6px;-ms-border-radius: 6px;-o-border-radius: 6px;border-radius: 6px;}
+    .inputSubmit{width: 80px;padding: 6px;margin : 5px auto 0; -webkit-border-radius: 6px;-moz-border-radius: 6px;-ms-border-radius: 6px;-o-border-radius: 6px;border-radius: 6px;}
+    section.dropdown-menu.extended li.username {margin: 0 auto 5px;}
+    .champ label{font-size: 14px;line-height: 14px;margin: 0 0 5px 0;}
+    .panier a#panier{width: 30px;height: 30px;margin: 6px auto 0;}
+    a#panier span#item_panier{font-size: 10px;line-height: 10px;width: 13px;padding: 2px 0;}
+    .page-header {margin: 20px auto 0;}
+    .breadcrumb li{font-size: 16px;line-height: 16px;}
+    ul#articles{margin : 30px auto 0;}
+    ul#articles li{height: 400px;width: 100%;margin: 0 0px 20px;border-radius: 8px;-webkit-border-radius: 8px;-moz-border-radius: 8px;-o-border-radius: 8px;-ms-border-radius: 8px;}
+    ul#articles a.imgtop{margin: 40px calc(50% - 80px);width: 160px;}
+    ul#articles .texte{padding: 15px;}
+    ul#articles .texte h2{margin: 0 auto 10px;}
+    ul#articles .texte h2 a{font-size: 17px;line-height: 17px;}
+    ul#articles .texte p{font-size: 13px;line-height: 17px;margin: 0 auto 10px;}
+    ul#articles .texte a#bouton_voir, a#bouton_add{margin: 20px auto 0;font-size: 13px;line-height: 13px;padding: 6px 12px;border-radius: 5px;-webkit-border-radius: 5px;-moz-border-radius: 5px;-o-border-radius: 5px;-ms-border-radius: 5px;}
+    #article1, #user1, #profil1, #listeUser1, #listeArticles1, #listeCommandes1{margin : 20px 0;padding: 0 10px;}
+    #bloc{border-radius: 5px;-webkit-border-radius: 5px;-moz-border-radius: 5px;-ms-border-radius: 5px;-o-border-radius: 5px;padding: 20px;}
+    .top_bloc h2{font-size: 15px;line-height: 15px;margin: 5px auto 0;}
+    .top_bloc p {font-size: 13px;line-height: 13px;margin: 5px auto 0;}
+    .top_bloc a#bouton_liste{font-size: 15px;line-height: 15px;padding: 6px;}
+    .top_bloc a#bouton_liste{-webkit-border-radius: 5px;-moz-border-radius: 5px;-ms-border-radius: 5px;-o-border-radius: 5px;border-radius: 5px;}
+    .bottom_bloc{margin : 30px auto 0;}
+    #article1 .champ, #user1 .champ, #profil1 .champ, #listeUser1 .champ, #listeArticles1 .champ, #listeCommandes1 .champ{margin : 10px 0;}
+    #article1 .champ label, #user1 .champ label, #profil1 .champ label, #listeUser1 .champ label, #listeArticles1 .champ label, #listeCommandes1 .champ label{padding: 10px 15px 0 0;width: 100%;float: left;}
+    .form_admin, .form_img_admin{font-size : 13px;line-height: 13px;font-weight: 400;width: 95%;padding: 6px; -webkit-border-radius: 6px;-moz-border-radius: 6px;-ms-border-radius: 6px;-o-border-radius: 6px;border-radius: 6px;}
+    .submit_admin{width: 90px;padding: 6px;margin : 5px auto 0;  -webkit-border-radius: 6px;-moz-border-radius: 6px;-ms-border-radius: 6px;-o-border-radius: 6px;border-radius: 6px;}
+    .select{padding: 6px;-webkit-border-radius: 6px;-moz-border-radius: 6px;-ms-border-radius: 6px;-o-border-radius: 6px;border-radius: 6px;}
+    .txt_droite{width: calc(50% - 60px);margin: 0 30px 0 30px;}
+    .txt_droite h1 {font-size: 21px;line-height: 21px;margin: 0 auto 15px;}
+    .txt_droite p {font-size: 14px;line-height: 14px;margin: 0 auto 20px;}
+    .txt_droite span{font-size: 18px;line-height: 18px;margin: 0 auto 15px;}
+    footer{padding: 10px 0;}
+    footer span{font-size: 14px;line-height: 14px;margin : 0 auto 20px;}
+    th{padding: 0.15rem;font-size: 13px;line-height: 22px;display: none;}
+    td{padding: 6px;font-size: 12px;line-height: 12px;width:100%;float: left;}
+    td a{font-size: 16px;line-height: 16px;}
+    a#imgproduit{width : 100px;}
+    a.desactiver{padding: 5px;margin: 5px auto 0;-webkit-border-radius: 4px;-moz-border-radius: 4px;-ms-border-radius: 4px;-o-border-radius: 4px;border-radius: 4px;}
+}
+
+
+/* -------- 480 ------- */
+@media only screen and (min-width : 480px){
+    .marge{width: 410px;}
+    main{margin: 88px auto 0;}
+    small{font-size: 11px;line-height: 11px;}
+    header{padding: 10px;}
+    a#logoheader {font-size: 17px;line-height: 17px;width: 150px;margin: 12px auto 0;}
+    #btnmenu{width: 40px;height: 40px;}
+    #btnmenu.open{width: 40px;height: 40px;}
+    #menumobile{width: 250px;padding: 0px 30px;height: 140px;top: 88px;}
+    ul#menunav {margin : 30px auto 0;}
+    ul#menunav li{margin: 0 auto 15px;}
+    ul#menunav li a {font-size: 14px;line-height: 14px;}
+    ul#menu{margin: 0 10px 0 0;}
+    ul#menu li{margin : 0 10px;}
+    ul#menu li a{font-size: 13px;line-height: 13px;padding: 0 0 10px;margin: 10px auto 0;}
+    ul#menu li.login a {padding: 6px 10px;margin: 6px auto 0;border-radius: 5px;-webkit-border-radius: 5px;-moz-border-radius: 5px;-ms-border-radius: 5px;-o-border-radius: 5px;}
+    .form_recherche{margin: 9px 0 0 15px;}
+    .formulaire_rechercher{padding: 3px 22px 3px 6px;}
+    .bouton_rechercher{width: 23px;height: 23px;}
+    a.panel-user {font-size: 13px;line-height: 13px;padding: 3px;margin: 10px 10px 0 0;border-radius: 5px;-webkit-border-radius: 5px;-moz-border-radius: 5px;-ms-border-radius: 5px;-o-border-radius: 5px;}
+    section.dropdown-menu {right : 10px;}
+    section.dropdown-menu.extended {max-width: 240px;top: 88px;right: calc(50% - 165px);padding: 8px;}
+    section.dropdown-menu.extended li {font-size: 13px;line-height: 15px;}
+    .panel_header {padding : 5px 0;margin: 0 auto 10px;}
+    .panel_header span {font-size : 13px;line-height : 13px;}
+    section.dropdown-menu .avatar2 {width: 50px;height: 50px;}
+    .panel_lvl {padding : 10px 0;margin: 10px 0;}
+    section.dropdown-menu.extended li a {font-size: 13px;line-height: 16px;}
+    section.dropdown-menu.extended.logout > li:last-child a.deconnexion{padding: 6px;font-size: 13px;line-height: 13px; border-radius: 3px;-webkit-border-radius: 3px;-moz-border-radius: 3px;-ms-border-radius: 3px;-o-border-radius: 3px;}
+    .avatar {padding : 0 10px 0 0;width: 25px;height: 15px;}
+    .user {width: calc(100% - 80px);padding : 5px 0 9px 10px;}
+    .champ{margin: 5px 0;}
+    .inputConnexion{width: calc(100% - 20px);padding: 6px;-webkit-border-radius: 6px;-moz-border-radius: 6px;-ms-border-radius: 6px;-o-border-radius: 6px;border-radius: 6px;}
+    .inputSubmit{width: 80px;padding: 6px;margin : 5px auto 0; -webkit-border-radius: 6px;-moz-border-radius: 6px;-ms-border-radius: 6px;-o-border-radius: 6px;border-radius: 6px;}
+    section.dropdown-menu.extended li.username {margin: 0 auto 5px;}
+    .champ label{font-size: 14px;line-height: 14px;margin: 0 0 5px 0;}
+    .panier a#panier{width: 30px;height: 30px;margin: 6px auto 0;}
+    a#panier span#item_panier{font-size: 10px;line-height: 10px;width: 13px;padding: 2px 0;}
+    .page-header {margin: 20px auto 0;}
+    .breadcrumb li{font-size: 16px;line-height: 16px;}
+    ul#articles{margin : 30px auto 0;}
+    ul#articles li{height: 400px;width: calc(50% - 20px);margin: 0 10px 20px;border-radius: 8px;-webkit-border-radius: 8px;-moz-border-radius: 8px;-o-border-radius: 8px;-ms-border-radius: 8px;}
+    ul#articles a.imgtop{margin: 40px calc(50% - 80px);width: 160px;}
+    ul#articles .texte{padding: 15px;}
+    ul#articles .texte h2{margin: 0 auto 10px;}
+    ul#articles .texte h2 a{font-size: 17px;line-height: 17px;}
+    ul#articles .texte p{font-size: 13px;line-height: 17px;margin: 0 auto 10px;}
+    ul#articles .texte a#bouton_voir, a#bouton_add{margin: 20px auto 0;font-size: 13px;line-height: 13px;padding: 6px 12px;border-radius: 5px;-webkit-border-radius: 5px;-moz-border-radius: 5px;-o-border-radius: 5px;-ms-border-radius: 5px;}
+    #article1, #user1, #profil1, #listeUser1, #listeArticles1, #listeCommandes1{margin : 20px 0;padding: 0 32px;}
+    #bloc{border-radius: 5px;-webkit-border-radius: 5px;-moz-border-radius: 5px;-ms-border-radius: 5px;-o-border-radius: 5px;padding: 20px;}
+    .top_bloc h2{font-size: 15px;line-height: 15px;margin: 5px auto 0;}
+    .top_bloc p {font-size: 13px;line-height: 13px;margin: 5px auto 0;}
+    .top_bloc a#bouton_liste{font-size: 15px;line-height: 15px;padding: 6px;}
+    .top_bloc a#bouton_liste{-webkit-border-radius: 5px;-moz-border-radius: 5px;-ms-border-radius: 5px;-o-border-radius: 5px;border-radius: 5px;}
+    .bottom_bloc{margin : 30px auto 0;}
+    #article1 .champ, #user1 .champ, #profil1 .champ, #listeUser1 .champ, #listeArticles1 .champ, #listeCommandes1 .champ{margin : 10px 0;}
+    #article1 .champ label, #user1 .champ label, #profil1 .champ label, #listeUser1 .champ label, #listeArticles1 .champ label, #listeCommandes1 .champ label{padding: 10px 15px 0 0;width: 130px;}
+    .form_admin, .form_img_admin{font-size : 13px;line-height: 13px;font-weight: 400;width: calc(100% - 170px);padding: 6px; -webkit-border-radius: 6px;-moz-border-radius: 6px;-ms-border-radius: 6px;-o-border-radius: 6px;border-radius: 6px;}
+    .submit_admin{width: 90px;padding: 6px;margin : 5px auto 0;  -webkit-border-radius: 6px;-moz-border-radius: 6px;-ms-border-radius: 6px;-o-border-radius: 6px;border-radius: 6px;}
+    .select{padding: 6px;-webkit-border-radius: 6px;-moz-border-radius: 6px;-ms-border-radius: 6px;-o-border-radius: 6px;border-radius: 6px;}
+    .txt_droite{width: calc(50% - 60px);margin: 0 30px 0 30px;}
+    .txt_droite h1 {font-size: 21px;line-height: 21px;margin: 0 auto 15px;}
+    .txt_droite p {font-size: 14px;line-height: 14px;margin: 0 auto 20px;}
+    .txt_droite span{font-size: 18px;line-height: 18px;margin: 0 auto 15px;}
+    footer{padding: 10px 0;}
+    footer span{font-size: 14px;line-height: 14px;margin : 0 auto 20px;}
+    th{padding: 0.15rem;font-size: 13px;line-height: 22px;display: none;}
+    td{padding: 6px;font-size: 12px;line-height: 12px;width:100%;float: left;}
+    td a{font-size: 16px;line-height: 16px;}
+    a#imgproduit{width : 100px;}
+    a.desactiver{padding: 5px;margin: 5px auto 0;-webkit-border-radius: 4px;-moz-border-radius: 4px;-ms-border-radius: 4px;-o-border-radius: 4px;border-radius: 4px;}
+}
+
+
+/* -------- 768 ------- */
+@media only screen and (min-width : 768px){
+    .marge{width: 680px;}
+    main{margin: 60px auto 0;}
+    small{font-size: 11px;line-height: 11px;}
+    header{padding: 10px;}
+    a#logoheader {font-size: 17px;line-height: 17px;width: 150px;margin: 12px auto 0;}
+    #btnmenu{width: 40px;height: 40px;}
+    #btnmenu.open{width: 40px;height: 40px;}
+    #menumobile{width: 250px;padding: 0px 30px;height: 140px;top: 60px;}
+    ul#menunav {margin : 30px auto 0;}
+    ul#menunav li{margin: 0 auto 15px;}
+    ul#menunav li a {font-size: 14px;line-height: 14px;}
+    ul#menu{margin: 0 10px 0 0;}
+    ul#menu li{margin : 0 10px;}
+    ul#menu li a{font-size: 13px;line-height: 13px;padding: 0 0 10px;margin: 10px auto 0;}
+    ul#menu li.login a {padding: 6px 10px;margin: 6px auto 0;border-radius: 5px;-webkit-border-radius: 5px;-moz-border-radius: 5px;-ms-border-radius: 5px;-o-border-radius: 5px;}
+    .form_recherche{margin: 9px 0 0 15px;}
+    .formulaire_rechercher{padding: 3px 22px 3px 6px;}
+    .bouton_rechercher{width: 23px;height: 23px;}
+    a.panel-user {font-size: 13px;line-height: 13px;padding: 3px;margin: 10px 10px 0 0;border-radius: 5px;-webkit-border-radius: 5px;-moz-border-radius: 5px;-ms-border-radius: 5px;-o-border-radius: 5px;}
+    section.dropdown-menu {right : 10px;}
+    section.dropdown-menu.extended {max-width: 240px;top: 60px;right: calc(50% - 300px);padding: 8px;}
+    section.dropdown-menu.extended li {font-size: 13px;line-height: 15px;}
+    .panel_header {padding : 5px 0;margin: 0 auto 10px;}
+    .panel_header span {font-size : 13px;line-height : 13px;}
+    section.dropdown-menu .avatar2 {width: 50px;height: 50px;}
+    .panel_lvl {padding : 10px 0;margin: 10px 0;}
+    section.dropdown-menu.extended li a {font-size: 13px;line-height: 16px;}
+    section.dropdown-menu.extended.logout > li:last-child a.deconnexion{padding: 6px;font-size: 13px;line-height: 13px; border-radius: 3px;-webkit-border-radius: 3px;-moz-border-radius: 3px;-ms-border-radius: 3px;-o-border-radius: 3px;}
+    .avatar {padding : 0 10px 0 0;width: 25px;height: 15px;}
+    .user {width: calc(100% - 80px);padding : 5px 0 9px 10px;}
+    .champ{margin: 5px 0;}
+    .inputConnexion{width: calc(100% - 20px);padding: 6px;-webkit-border-radius: 6px;-moz-border-radius: 6px;-ms-border-radius: 6px;-o-border-radius: 6px;border-radius: 6px;}
+    .inputSubmit{width: 80px;padding: 6px;margin : 5px auto 0; -webkit-border-radius: 6px;-moz-border-radius: 6px;-ms-border-radius: 6px;-o-border-radius: 6px;border-radius: 6px;}
+    section.dropdown-menu.extended li.username {margin: 0 auto 5px;}
+    .champ label{font-size: 14px;line-height: 14px;margin: 0 0 5px 0;}
+    .panier a#panier{width: 30px;height: 30px;margin: 6px auto 0;}
+    a#panier span#item_panier{font-size: 10px;line-height: 10px;width: 13px;padding: 2px 0;}
+    .page-header {margin: 20px auto 0;}
+    .breadcrumb li{font-size: 16px;line-height: 16px;}
+    ul#articles{margin : 30px auto 0;}
+    ul#articles li{height: 400px;width: calc(33.3334% - 20px);margin: 0 10px 20px;border-radius: 8px;-webkit-border-radius: 8px;-moz-border-radius: 8px;-o-border-radius: 8px;-ms-border-radius: 8px;}
+    ul#articles a.imgtop{margin: 40px calc(50% - 80px);width: 160px;}
+    ul#articles .texte{padding: 15px;}
+    ul#articles .texte h2{margin: 0 auto 10px;}
+    ul#articles .texte h2 a{font-size: 17px;line-height: 17px;}
+    ul#articles .texte p{font-size: 13px;line-height: 17px;margin: 0 auto 10px;}
+    ul#articles .texte a#bouton_voir, a#bouton_add{margin: 20px auto 0;font-size: 13px;line-height: 13px;padding: 6px 12px;border-radius: 5px;-webkit-border-radius: 5px;-moz-border-radius: 5px;-o-border-radius: 5px;-ms-border-radius: 5px;}
+    #article1, #user1, #profil1, #listeUser1, #listeArticles1, #listeCommandes1{margin : 20px 0;padding: 0 32px;}
+    #bloc{border-radius: 5px;-webkit-border-radius: 5px;-moz-border-radius: 5px;-ms-border-radius: 5px;-o-border-radius: 5px;padding: 20px;}
+    .top_bloc h2{font-size: 15px;line-height: 15px;margin: 5px auto 0;}
+    .top_bloc p {font-size: 13px;line-height: 13px;margin: 5px auto 0;}
+    .top_bloc a#bouton_liste{font-size: 15px;line-height: 15px;padding: 6px;}
+    .top_bloc a#bouton_liste{-webkit-border-radius: 5px;-moz-border-radius: 5px;-ms-border-radius: 5px;-o-border-radius: 5px;border-radius: 5px;}
+    .bottom_bloc{margin : 30px auto 0;}
+    #article1 .champ, #user1 .champ, #profil1 .champ, #listeUser1 .champ, #listeArticles1 .champ, #listeCommandes1 .champ{margin : 10px 0;}
+    #article1 .champ label, #user1 .champ label, #profil1 .champ label, #listeUser1 .champ label, #listeArticles1 .champ label, #listeCommandes1 .champ label{padding: 10px 15px 0 0;width: 130px;}
+    .form_admin, .form_img_admin{font-size : 13px;line-height: 13px;font-weight: 400;width: calc(100% - 170px);padding: 6px; -webkit-border-radius: 6px;-moz-border-radius: 6px;-ms-border-radius: 6px;-o-border-radius: 6px;border-radius: 6px;}
+    .submit_admin{width: 90px;padding: 6px;margin : 5px auto 0;  -webkit-border-radius: 6px;-moz-border-radius: 6px;-ms-border-radius: 6px;-o-border-radius: 6px;border-radius: 6px;}
+    .select{padding: 6px;-webkit-border-radius: 6px;-moz-border-radius: 6px;-ms-border-radius: 6px;-o-border-radius: 6px;border-radius: 6px;}
+    .txt_droite{width: calc(50% - 60px);margin: 0 30px 0 30px;}
+    .txt_droite h1 {font-size: 21px;line-height: 21px;margin: 0 auto 15px;}
+    .txt_droite p {font-size: 14px;line-height: 14px;margin: 0 auto 20px;}
+    .txt_droite span{font-size: 18px;line-height: 18px;margin: 0 auto 15px;}
+    footer{padding: 10px 0;}
+    footer span{font-size: 14px;line-height: 14px;margin : 0 auto 20px;}
+    th{padding: 0.15rem;font-size: 13px;line-height: 22px;display: none;}
+    td{padding: 6px;font-size: 12px;line-height: 12px;width:100%;float: left;}
+    td a{font-size: 16px;line-height: 16px;}
+    a#imgproduit{width : 100px;}
+    a.desactiver{padding: 5px;margin: 5px auto 0;-webkit-border-radius: 4px;-moz-border-radius: 4px;-ms-border-radius: 4px;-o-border-radius: 4px;border-radius: 4px;}
+}
+
+
+/* -------- 992 ------- */
+@media only screen and (min-width : 992px){
+    #header{display: block;}
+    #btnmenu{display: none;}
+    .marge{width: 900px;}
+    main{margin: 53px auto 0;}
+    small{font-size: 11px;line-height: 11px;}
+    header{padding: 10px;}
+    a#logoheader {font-size: 16px;line-height: 17px;width: 150px;margin: 6px auto 0;}
+    ul#menu{margin: 0 10px 0 0;}
+    ul#menu li{margin : 0 10px;}
+    ul#menu li a{font-size: 13px;line-height: 13px;padding: 0 0 10px;margin: 10px auto 0;}
+    ul#menu li.login a {padding: 6px 10px;margin: 6px auto 0;border-radius: 5px;-webkit-border-radius: 5px;-moz-border-radius: 5px;-ms-border-radius: 5px;-o-border-radius: 5px;}
+    .form_recherche{margin: 6px auto 0;}
+    .formulaire_rechercher{padding: 3px 22px 3px 6px;}
+    .bouton_rechercher{width: 23px;height: 23px;}
+    a.panel-user {font-size: 13px;line-height: 13px;padding: 3px;margin: 6px 10px 0 0;border-radius: 5px;-webkit-border-radius: 5px;-moz-border-radius: 5px;-ms-border-radius: 5px;-o-border-radius: 5px;}
+    section.dropdown-menu {right : 10px;}
+    section.dropdown-menu.extended {max-width: 265px;top: 53px;right: calc(50% - 410px);padding: 8px;}
+    section.dropdown-menu.extended li {font-size: 13px;line-height: 15px;}
+    .panel_header {padding : 5px 0;margin: 0 auto 10px;}
+    .panel_header span {font-size : 13px;line-height : 13px;}
+    section.dropdown-menu .avatar2 {width: 50px;height: 50px;}
+    .panel_lvl {padding : 10px 0;margin: 10px 0;}
+    section.dropdown-menu.extended li a {font-size: 13px;line-height: 16px;}
+    section.dropdown-menu.extended.logout > li:last-child a.deconnexion{padding: 6px;font-size: 13px;line-height: 13px; border-radius: 3px;-webkit-border-radius: 3px;-moz-border-radius: 3px;-ms-border-radius: 3px;-o-border-radius: 3px;}
+    .avatar {padding : 0 10px 0 0;width: 25px;height: 15px;}
+    .user {width: calc(100% - 80px);padding : 5px 0 9px 10px;}
+    .champ{margin: 5px 0;}
+    .inputConnexion{width: calc(100% - 20px);padding: 6px;-webkit-border-radius: 6px;-moz-border-radius: 6px;-ms-border-radius: 6px;-o-border-radius: 6px;border-radius: 6px;}
+    .inputSubmit{width: 80px;padding: 6px;margin : 5px auto 0; -webkit-border-radius: 6px;-moz-border-radius: 6px;-ms-border-radius: 6px;-o-border-radius: 6px;border-radius: 6px;}
+    section.dropdown-menu.extended li.username {margin: 0 auto 5px;}
+    .champ label{font-size: 14px;line-height: 14px;margin: 0 0 5px 0;}
+    .panier a#panier{width: 30px;height: 30px;margin: 2px auto 0;}
+    a#panier span#item_panier{font-size: 10px;line-height: 10px;width: 13px;padding: 2px 0;}
+    .page-header {margin: 20px auto 0;}
+    .breadcrumb li{font-size: 16px;line-height: 16px;}
+    ul#articles{margin : 30px auto 0;}
+    ul#articles li{height: 400px;width: calc(33.3334% - 40px);margin: 0 20px 20px;border-radius: 8px;-webkit-border-radius: 8px;-moz-border-radius: 8px;-o-border-radius: 8px;-ms-border-radius: 8px;}
+    ul#articles a.imgtop{margin: 40px calc(50% - 80px);width: 160px;}
+    ul#articles .texte{padding: 15px;}
+    ul#articles .texte h2{margin : 0 auto 20px;}
+    ul#articles .texte h2 a{font-size: 19px;line-height: 19px;}
+    ul#articles .texte p{font-size: 13px;line-height: 17px;margin: 0 auto 10px;}
+    ul#articles .texte a#bouton_voir, a#bouton_add{margin: 20px auto 0;font-size: 13px;line-height: 13px;padding: 6px 12px;border-radius: 5px;-webkit-border-radius: 5px;-moz-border-radius: 5px;-o-border-radius: 5px;-ms-border-radius: 5px;}
+    #article1, #user1, #profil1, #listeUser1, #listeArticles1, #listeCommandes1{margin : 20px 0;padding: 0 32px;}
+    #bloc{border-radius: 5px;-webkit-border-radius: 5px;-moz-border-radius: 5px;-ms-border-radius: 5px;-o-border-radius: 5px;padding: 20px;}
+    .top_bloc h2{font-size: 15px;line-height: 15px;margin: 5px auto 0;}
+    .top_bloc p {font-size: 13px;line-height: 13px;margin: 5px auto 0;}
+    .top_bloc a#bouton_liste{font-size: 15px;line-height: 15px;padding: 6px;}
+    .top_bloc a#bouton_liste{-webkit-border-radius: 5px;-moz-border-radius: 5px;-ms-border-radius: 5px;-o-border-radius: 5px;border-radius: 5px;}
+    .bottom_bloc{margin : 30px auto 0;}
+    #article1 .champ, #user1 .champ, #profil1 .champ, #listeUser1 .champ, #listeArticles1 .champ, #listeCommandes1 .champ{margin : 10px 0;}
+    #article1 .champ label, #user1 .champ label, #profil1 .champ label, #listeUser1 .champ label, #listeArticles1 .champ label, #listeCommandes1 .champ label{padding: 10px 15px 0 0;width: 130px;}
+    .form_admin, .form_img_admin{font-size : 13px;line-height: 13px;font-weight: 400;width: calc(100% - 170px);padding: 6px; -webkit-border-radius: 6px;-moz-border-radius: 6px;-ms-border-radius: 6px;-o-border-radius: 6px;border-radius: 6px;}
+    .submit_admin{width: 90px;padding: 6px;margin : 5px auto 0;  -webkit-border-radius: 6px;-moz-border-radius: 6px;-ms-border-radius: 6px;-o-border-radius: 6px;border-radius: 6px;}
+    .select{padding: 6px;-webkit-border-radius: 6px;-moz-border-radius: 6px;-ms-border-radius: 6px;-o-border-radius: 6px;border-radius: 6px;}
+    .txt_droite{width: calc(50% - 60px);margin: 0 30px 0 30px;}
+    .txt_droite h1 {font-size: 21px;line-height: 21px;margin: 0 auto 15px;}
+    .txt_droite p {font-size: 14px;line-height: 14px;margin: 0 auto 20px;}
+    .txt_droite span{font-size: 18px;line-height: 18px;margin: 0 auto 15px;}
+    footer{padding: 10px 0;}
+    footer span{font-size: 14px;line-height: 14px;margin : 0 auto 20px;}
+    th{padding: 0.25rem;font-size: 15px;line-height: 22px;display: table-cell;}
+    td{padding: 6px;font-size: 13px;line-height: 13px;width:auto;float: none;}
+    td a{font-size: 13px;line-height: 13px;}
+    a#imgproduit{width : 70px;}
+    a.desactiver{padding: 8px;margin: 5px auto 0;-webkit-border-radius: 6px;-moz-border-radius: 6px;-ms-border-radius: 6px;-o-border-radius: 6px;border-radius: 6px;}
+}
+
+/* -------- 1200 ------- */
+@media only screen and (min-width : 1200px){
+    .marge{width: 1110px;}
+    main{margin: 60px auto 0;}
+    small{font-size: 11px;line-height: 11px;}
+    header{padding: 10px;}
+    a#logoheader {font-size: 19px;line-height: 21px;width: 180px;margin: 6px auto 0;}
+    ul#menu{margin: 0 10px 0 0;}
+    ul#menu li{margin : 0 10px;}
+    ul#menu li a{font-size: 14px;line-height: 14px;padding: 0 0 10px;margin: 10px auto 0;}
+    ul#menu li.login a {padding: 6px 10px;margin: 6px auto 0;border-radius: 5px;-webkit-border-radius: 5px;-moz-border-radius: 5px;-ms-border-radius: 5px;-o-border-radius: 5px;}
+    .form_recherche{margin: 3px auto 0;}
+    .formulaire_rechercher{padding: 7px 30px 6px 11px;}
+    .bouton_rechercher{width: 30px;height: 30px;}
+    a.panel-user {font-size: 14px;line-height: 14px;padding: 5px;margin: 5px 10px 0 0;border-radius: 5px;-webkit-border-radius: 5px;-moz-border-radius: 5px;-ms-border-radius: 5px;-o-border-radius: 5px;}
+    section.dropdown-menu {right : 10px;}
+    section.dropdown-menu.extended {max-width : 315px;top : 56px;right: calc(50% - 510px);padding: 10px;}
+    section.dropdown-menu.extended li {font-size : 14px;line-height : 17px;}
+    .panel_header {padding : 5px 0;margin: 0 auto 10px;}
+    .panel_header span {font-size : 13px;line-height : 13px;}
+    section.dropdown-menu .avatar2 {width: 50px;height: 50px;}
+    .panel_lvl {padding : 10px 0;margin: 10px 0;}
+    section.dropdown-menu.extended li a {font-size : 14px;line-height : 16px;}
+    section.dropdown-menu.extended.logout > li:last-child a.deconnexion{padding: 7px;font-size: 14px;line-height: 14px; border-radius: 3px;-webkit-border-radius: 3px;-moz-border-radius: 3px;-ms-border-radius: 3px;-o-border-radius: 3px;}
+    .avatar {padding : 0 10px 0 0;width: 25px;height: 15px;}
+    .user {width: calc(100% - 80px);padding : 5px 0 9px 10px;}
+    .champ{margin: 5px 0;}
+    .inputConnexion{width: calc(100% - 20px);padding: 6px;-webkit-border-radius: 6px;-moz-border-radius: 6px;-ms-border-radius: 6px;-o-border-radius: 6px;border-radius: 6px;}
+    .inputSubmit{width: 80px;padding: 6px;margin : 5px auto 0; -webkit-border-radius: 6px;-moz-border-radius: 6px;-ms-border-radius: 6px;-o-border-radius: 6px;border-radius: 6px;}
+    section.dropdown-menu.extended li.username {margin: 0 auto 5px;}
+    .champ label{font-size: 14px;line-height: 14px;margin: 0 0 5px 0;}
+    .panier a#panier{width: 35px;height: 35px;margin: 1px auto 0;}
+    a#panier span#item_panier{font-size: 12px;line-height: 12px; width: 18px;padding: 3px 0;}
+    .page-header {margin: 20px auto 0;}
+    .breadcrumb li{font-size: 16px;line-height: 16px;}
+    ul#articles{margin : 30px auto 0;}
+    ul#articles li{height: 430px;width: calc(25% - 40px);margin: 0 20px 20px;border-radius: 8px;-webkit-border-radius: 8px;-moz-border-radius: 8px;-o-border-radius: 8px;-ms-border-radius: 8px;}
+    ul#articles a.imgtop{margin: 40px calc(50% - 80px);width: 160px;}
+    ul#articles .texte{padding: 15px;}
+    ul#articles .texte h2{margin : 0 auto 20px;}
+    ul#articles .texte h2 a{font-size: 23px;line-height: 23px;}
+    ul#articles .texte p{font-size: 13px;line-height: 17px;margin: 0 auto 10px;}
+    ul#articles .texte a#bouton_voir, a#bouton_add{margin: 20px auto 0;font-size: 13px;line-height: 13px;padding: 6px 12px;border-radius: 5px;-webkit-border-radius: 5px;-moz-border-radius: 5px;-o-border-radius: 5px;-ms-border-radius: 5px;}
+    #article1, #user1, #profil1, #listeUser1, #listeArticles1, #listeCommandes1{margin : 20px 0;padding: 0 32px;}
+    #bloc{border-radius: 5px;-webkit-border-radius: 5px;-moz-border-radius: 5px;-ms-border-radius: 5px;-o-border-radius: 5px;padding: 20px;}
+    .top_bloc h2{font-size: 16px;line-height: 16px; margin: 10px auto 0;}
+    .top_bloc p {font-size: 14px;line-height: 14px;margin: 10px auto 0;}
+    .top_bloc a#bouton_liste{font-size: 16px;line-height: 16px;padding: 7px;}
+    .top_bloc a#bouton_liste{-webkit-border-radius: 5px;-moz-border-radius: 5px;-ms-border-radius: 5px;-o-border-radius: 5px;border-radius: 5px;}
+    .bottom_bloc{margin : 30px auto 0;}
+    #article1 .champ, #user1 .champ, #profil1 .champ, #listeUser1 .champ, #listeArticles1 .champ, #listeCommandes1 .champ{margin : 10px 0;}
+    #article1 .champ label, #user1 .champ label, #profil1 .champ label, #listeUser1 .champ label, #listeArticles1 .champ label, #listeCommandes1 .champ label{padding: 10px 25px 0 0;width: 150px;}
+    .form_admin, .form_img_admin{font-size : 13px;line-height: 13px;font-weight: 400;width: calc(100% - 200px);padding: 6px; -webkit-border-radius: 6px;-moz-border-radius: 6px;-ms-border-radius: 6px;-o-border-radius: 6px;border-radius: 6px;}
+    .submit_admin{width: 100px;padding: 6px;margin : 5px auto 0;  -webkit-border-radius: 6px;-moz-border-radius: 6px;-ms-border-radius: 6px;-o-border-radius: 6px;border-radius: 6px;}
+    .select{padding: 6px;-webkit-border-radius: 6px;-moz-border-radius: 6px;-ms-border-radius: 6px;-o-border-radius: 6px;border-radius: 6px;}
+    .txt_droite{width: calc(50% - 60px);margin: 0 30px 0 30px;}
+    .txt_droite h1 {font-size: 24px;line-height: 24px;margin: 0 auto 20px;}
+    .txt_droite p {font-size: 14px;line-height: 14px;margin: 0 auto 20px;}
+    .txt_droite span{font-size: 20px;line-height: 20px;margin: 0 auto 15px;}
+    footer{padding: 10px 0;}
+    footer span{font-size: 16px;line-height: 16px;margin : 0 auto 20px;}
+    th{padding: .55rem;}
+    td{padding: 10px;font-size: 14px;line-height: 14px;}
+    td a{font-size: 14px;line-height: 14px;}
+    a#imgproduit{width : 70px;}
+    a.desactiver{padding: 8px;margin: 5px auto 0;-webkit-border-radius: 6px;-moz-border-radius: 6px;-ms-border-radius: 6px;-o-border-radius: 6px;border-radius: 6px;}
+}
+
+/* -------- 1400 ------- */
+@media only screen and (min-width : 1400px){
+    .marge{width: 1300px;}
+    main{margin: 65px auto 0;}
+    small{font-size: 11px;line-height: 11px;}
+    header{padding: 10px;}
+    a#logoheader {font-size: 25px;line-height: 26px;width: 230px;margin: 6px auto 0;}
+    ul#menu{margin: 0 15px 0 0;}
+    ul#menu li{margin : 0 10px;}
+    ul#menu li a{font-size: 17px;line-height: 17px;padding: 0 0 10px;margin: 12px auto 0;}
+    ul#menu li.login a {padding: 6px 10px;margin: 6px auto 0;border-radius: 5px;-webkit-border-radius: 5px;-moz-border-radius: 5px;-ms-border-radius: 5px;-o-border-radius: 5px;}
+    .form_recherche{margin: 6px auto 0;}
+    .formulaire_rechercher{padding: 9px 30px 9px 11px;font-size: 14px;line-height: 14px;}
+    .bouton_rechercher{width: 32px;height: 32px;}
+    a.panel-user {font-size: 14px;line-height: 14px;padding: 7px;margin: 6px 10px 0 0;border-radius: 5px;-webkit-border-radius: 5px;-moz-border-radius: 5px;-ms-border-radius: 5px;-o-border-radius: 5px;}
+    section.dropdown-menu {right : 10px;}
+    section.dropdown-menu.extended {max-width: 350px;top: 65px;right: calc(50% - 600px);padding: 10px;}
+    section.dropdown-menu.extended li {font-size: 16px;line-height: 16px;}
+    .panel_header {padding : 5px 0;margin: 0 auto 10px;}
+    .panel_header span {font-size : 13px;line-height : 13px;}
+    section.dropdown-menu .avatar2 {width: 60px;height: 60px;}
+    .panel_lvl {padding : 10px 0;margin: 10px 0;}
+    section.dropdown-menu.extended li a {font-size: 15px;line-height: 20px;}
+    section.dropdown-menu.extended.logout > li:last-child a.deconnexion{padding: 7px;font-size: 16px;line-height: 16px; border-radius: 3px;-webkit-border-radius: 3px;-moz-border-radius: 3px;-ms-border-radius: 3px;-o-border-radius: 3px;}
+    .avatar {padding : 0 10px 0 0;width: 25px;height: 16px;}
+    .user {width: calc(100% - 80px);padding : 5px 0 9px 10px;}
+    .champ{margin: 5px 0;}
+    .inputConnexion{width: calc(100% - 20px);padding: 6px;-webkit-border-radius: 6px;-moz-border-radius: 6px;-ms-border-radius: 6px;-o-border-radius: 6px;border-radius: 6px;}
+    .inputSubmit{width: 80px;padding: 6px;margin : 5px auto 0; -webkit-border-radius: 6px;-moz-border-radius: 6px;-ms-border-radius: 6px;-o-border-radius: 6px;border-radius: 6px;}
+    section.dropdown-menu.extended li.username {margin: 0 auto 5px;}
+    .champ label{font-size: 16px;line-height: 16px;margin: 0 0 5px 0;}
+    .panier a#panier{width: 45px;height: 45px;margin:0;}
+    a#panier span#item_panier{font-size: 12px;line-height: 12px; width: 18px;padding: 3px 0;}
+    .page-header {margin: 20px auto 0;}
+    .breadcrumb li{font-size: 18px;line-height: 18px;}
+    ul#articles{margin : 30px auto 0;}
+    ul#articles li{height: 440px;width: calc(25% - 40px);margin: 0 20px 20px;border-radius: 8px;-webkit-border-radius: 8px;-moz-border-radius: 8px;-o-border-radius: 8px;-ms-border-radius: 8px;}
+    ul#articles a.imgtop{margin: 40px calc(50% - 100px);width: 200px;}
+    ul#articles .texte{padding: 15px;}
+    ul#articles .texte h2{margin : 0 auto 20px;}
+    ul#articles .texte h2 a{font-size: 26px;line-height: 26px;}
+    ul#articles .texte p{font-size: 14px;line-height: 20px;margin: 0 auto 10px;}
+    ul#articles .texte a#bouton_voir, a#bouton_add{margin: 20px auto 0;font-size: 14px;line-height: 14px;padding: 6px 14px;border-radius: 5px;-webkit-border-radius: 5px;-moz-border-radius: 5px;-o-border-radius: 5px;-ms-border-radius: 5px;}
+    #article1, #user1, #profil1, #listeUser1, #listeArticles1, #listeCommandes1{margin : 20px 0;padding: 0 32px;}
+    #bloc{border-radius: 5px;-webkit-border-radius: 5px;-moz-border-radius: 5px;-ms-border-radius: 5px;-o-border-radius: 5px;padding: 20px;}
+    .top_bloc h2{font-size: 18px;line-height: 18px; margin: 10px auto 0;}
+    .top_bloc p {font-size: 14px;line-height: 14px;margin: 10px auto 0;}
+    .top_bloc a#bouton_liste{font-size: 18px;line-height: 18px;padding: 7px;}
+    .top_bloc a#bouton_liste{-webkit-border-radius: 5px;-moz-border-radius: 5px;-ms-border-radius: 5px;-o-border-radius: 5px;border-radius: 5px;}
+    .bottom_bloc{margin : 30px auto 0;}
+    #article1 .champ, #user1 .champ, #profil1 .champ, #listeUser1 .champ, #listeArticles1 .champ, #listeCommandes1 .champ{margin : 10px 0;}
+    #article1 .champ label, #user1 .champ label, #profil1 .champ label, #listeUser1 .champ label, #listeArticles1 .champ label, #listeCommandes1 .champ label{padding: 10px 25px 0 0;width: 150px;}
+    .form_admin, .form_img_admin{font-size : 14px;line-height: 14px;font-weight: 400;width: calc(100% - 200px);padding: 6px; -webkit-border-radius: 6px;-moz-border-radius: 6px;-ms-border-radius: 6px;-o-border-radius: 6px;border-radius: 6px;}
+    .submit_admin{width: 100px;padding: 6px;margin : 5px auto 0;  -webkit-border-radius: 6px;-moz-border-radius: 6px;-ms-border-radius: 6px;-o-border-radius: 6px;border-radius: 6px;}
+    .select{padding: 6px;-webkit-border-radius: 6px;-moz-border-radius: 6px;-ms-border-radius: 6px;-o-border-radius: 6px;border-radius: 6px;}
+    .txt_droite{width: calc(50% - 60px);margin: 0 30px 0 30px;}
+    .txt_droite h1 {font-size: 24px;line-height: 24px;margin: 0 auto 20px;}
+    .txt_droite p {font-size: 14px;line-height: 14px;margin: 0 auto 20px;}
+    .txt_droite span{font-size: 22px;line-height: 22px;margin: 0 auto 20px;}
+    footer{padding: 10px 0;}
+    footer span{font-size: 16px;line-height: 16px;margin : 0 auto 20px;}
+    th{padding: .75rem;}
+    td{padding: 10px;font-size: 16px;line-height: 16px;}
+    td a{font-size: 16px;line-height: 16px;}
+    a#imgproduit{width : 70px;}
+    a.desactiver{padding: 8px;margin: 5px auto 0;-webkit-border-radius: 6px;-moz-border-radius: 6px;-ms-border-radius: 6px;-o-border-radius: 6px;border-radius: 6px;}
+
+
+}
